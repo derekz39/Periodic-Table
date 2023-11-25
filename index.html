@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table Element Finder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png"  href="Images/Atom.png">
+    <style>
+    .column {
+      float: left;
+      width: 50%;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    </style>
+<body>
+    <header>
+        <h1>Periodic Table Element Finder</h1>
+        <div class="topnav">
+            <a class="active" href="index.html">Element Search</a>
+            <a href="periodicTable.html">Periodic Table</a>
+            <div class="search-container">
+                <input placeholder="Search Elements.." id="searchBar" name="searchBar" type="text">
+            </div>
+          </div>
+    </header>
+
+    <br>
+    
+    <div id="root"></div>
+    
+    <br><br>
+    <button class="button" onclick="myFunction()">Show More</button>
+    
+    <br><br><br>
+
+    <div class="myDIV" id="myDIV" style="display:none;">
+    <hr>
+    <footer>
+        <div class="row">
+            <div class="column">
+                <h2>Features:</h2>
+                <div class="row">
+                  <div class="column">
+                      <ul>
+                        <li>Added Oxidation Numbers</li>
+                    </ul>
+                  </div>
+                  
+                  <div class="column">
+                    <ul>
+                        <li>Added Group Numbers</li>
+                        <li>Fixed Search</li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+            <div class="column">
+                <h2>About:</h2>
+                <p>Created by Derek Zitnick</p>
+                <p>For Physical Science</p>
+                <p>Interactive Periodic Table</p>
+            </div>
+          </div>
+          <br><br>
+      </footer>
+    </div>
+    
+    <script src="script.js"></script>
+    
+    <script>
+        function myFunction() {
+          var x = document.getElementById('myDIV');
+            if (x.style.display === "none") {
+              x.style.display = "block";
+            } else {
+              x.style.display = "none";
+            }
+        }
+        
+    </script>
+</body>
+</html>

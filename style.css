@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Oswald&display=swap');
+
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+.row{
+  text-align: center;
+}
+
+p{
+  font-size: 25px;
+}
+h2{
+  font-size: 36px;
+}
+
+ul {
+  display: table;
+  margin: 0 auto;
+  text-align: left;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(26, 165, 89);
+    padding: 5px;
+    margin: -8px;
+    font-size: 25px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+footer{
+  text-align: center;
+  background-color: rgb(26, 165, 89);
+  padding: 5px;
+  margin: -8px;
+  font-size: 25px;
+  padding-bottom: 5px;
+  color: white;
+}
+
+#Other{
+  font-size: 13px;
+}
+
+#root{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, .5fr);
+  grid-gap: 20px;
+}
+
+#number{
+  text-align:left;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+#mass{
+  text-align: right;
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+#symbol{
+  font-size: 56px;
+  text-align: center;
+  margin-top: -25px;
+}
+
+#name{
+  margin-top: -50px;
+  font-size: 18px;
+}
+
+#group{
+  margin-top: -10px;
+  font-size: 18px;
+}
+
+.main{
+  text-align: center;
+}
+
+button p{
+  margin-top: -15px;
+  background-color: white;
+  padding: 2px;
+  border-radius: 5px;
+  color: black;
+  margin: 5px;
+  text-decoration: none;
+}
+
+button p{
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+#p{
+  font-size: 16px;
+}
+
+.body{
+  color: black;
+}
+
+.row{
+  margin-top: -18px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+#thing{
+  border: 1px solid black;
+  margin-top: -8px;
+}
+
+hr{
+  border: 2px solid black;
+  max-width: 100%;
+}
+
+button{
+  background-color: #333;
+}
+
+h4{
+  margin-top: -5px;
+  margin-bottom: 5px;
+  font-weight:400;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column1 {
+  float: left;
+  width: 50%;
+  margin-bottom: -10px;
+  margin-top: -30px;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column2 {
+  float: left;
+  width: 50%;
+  margin-bottom: -10px;
+  margin-top: -20px;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #bebebe;
+    margin: -5px;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .topnav .search-container {
+    float: right;
+    margin-top: 6px;
+    padding-right: 15px;
+  }
+  
+  .topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    vertical-align: center;
+  }
+  
+  .topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    vertical-align: center;
+  }
+  
+  .topnav .search-container button:hover {
+    background: #ccc;
+  }
+  
+  @media screen and (max-width: 600px) {
+
+    header{
+      font-size: 20px;
+      font-weight: 100;
+  }
+
+    .topnav .search-container {
+      float: none;
+      border-radius: 0px;
+    }
+    .topnav a, .topnav input[type=text], .topnav .search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+      border-radius: 0px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;
+      border-radius: 0px;
+    }
+  }
+
+  .Nonmetals{
+    margin: 1px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #333;
+    border-radius: 15px;
+    background-color: #fffdc2;
+    padding: 5px;
+  }
+
+  .Alkali_Metals{
+    margin: 1px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #333;
+    border-radius: 15px;
+    background-color: #ffcbcb;
+    padding: 5px;
+  }
+
+  .Noble_Gases{
+    margin: 1px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #333;
+    border-radius: 15px;
+    background-color: #ffe5c1;
+    padding: 5px;
+  }
+
+  .Halogens{
+    margin: 1px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #333;
+    border-radius: 15px;
+    background-color: #fffdc0;
+    padding: 5px;
+  }
+
+  .Alkaline_Earth_Metals{
+    margin: 1px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #333;
+    border-radius: 15px;
+    background-color: #d5d9ff;
+    padding: 5px;
+  }
+
+  .Metalloids{
+    margin: 1px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #333;
+    border-radius: 15px;
+    background-color: #eaf1cb;
+    padding: 5px;
+  }
+
+  .Other_Metals{
+    margin: 1px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #333;
+    border-radius: 15px;
+    background-color: #c4fdc0;
+    padding: 5px;
+  }
+
+  .Transition_Metals{
+    margin: 1px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #333;
+    border-radius: 15px;
+    background-color: #bde2ff;
+    padding: 5px;
+  }
+
+  .Lanthanides{
+    margin: 1px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #333;
+    border-radius: 15px;
+    background-color: #b0ffff;
+    padding: 5px;
+  }
+
+  .Actinides{
+    margin: 1px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #333;
+    border-radius: 15px;
+    background-color: #cffff0;
+    padding: 5px;
+  }
+
